@@ -1,15 +1,7 @@
-iimport React from 'react'
+import React from 'react';
 
-	const Button = (props) => {
+	function Button() {
+		return <button>Button</button>
+	}
 
-	// Props can be listed here
-	const { type = '',
-		propTwo,
-		propThree } = props
-
-		return (
-			<button type={type} propTwo={propTwo} propThree={propThree}>Button</button>
-			)
-		}
-
-	export default Button
+	export default Button;
