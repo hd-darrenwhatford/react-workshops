@@ -1,7 +1,15 @@
-import React from 'react';
+iimport React from 'react'
 
-function Button() {
-   return <button>Button</button>;
-}
+	const Button = (props) => {
 
-export default Button;
+	// Props can be listed here
+	const { type = '',
+		propTwo,
+		propThree } = props
+
+		return (
+			<button type={type} propTwo={propTwo} propThree={propThree}>Button</button>
+			)
+		}
+
+	export default Button
