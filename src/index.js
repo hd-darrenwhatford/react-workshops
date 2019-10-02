@@ -4,6 +4,6 @@ import React from 'react';
 	import Button from './Button';
 
 	ReactDOM.render(
-		<Button />,
+		<Button url='https//:www.hastingsdirect.com'>Next</Button>,
 		document.getElementById('app')
 	);
